@@ -15,31 +15,32 @@ body {
 /* Outer class for navbar, responsible for header background */
 .navbar-outer {
 	z-index: 15;
-	padding: 40px 0;
 	background: #061b3b;
 }
 
 /* Class containing logo and menu */
 .navbar-inner {
 	/*padding: 0 50px;*/
-	/*max-width: 940px;*/
+    max-width: 940px;
 }
 
 /* Placing the menu in proper place */
 .navbar-inner > .hidden-xs > ul {
-	float:right;
-	margin-top: 13px;
+	float: right;
+    margin-top: 80px;
 }
 
 /* Color and text formating of the menu */
 .navbar-inner > .hidden-xs > .nav > li > a {
 	padding: 10px 15px 10px;	
 	text-transform: uppercase;
-	line-height: 19px;
-	color: #ffffff;
-	font-weight: bold;
+	/*line-height: 19px;*/
+    font-family: 'Roboto', sans-serif;
+	color: #0088CC;
+    font-size: 15px;
+	/*font-weight: bold;*/
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-	background-color: #5AA3D2;
+	/*background-color: #5AA3D2;*/
 }
 
 .navbar-inner > .hidden-xs > .nav > li > a:hover {
@@ -47,15 +48,17 @@ body {
 	color: #ffffff;
 }
 
-.navbar-inner > .hidden-xs > .nav > li:first-child > a {
-	border-bottom-left-radius:4px;
-	border-top-left-radius:4px
-}
-
-.navbar-inner > .hidden-xs > .nav > li:last-child > a {
-	border-top-right-radius:4px;
-	border-bottom-right-radius:4px
-}
+/*
+ *.navbar-inner > .hidden-xs > .nav > li:first-child > a {
+ *    border-bottom-left-radius:4px;
+ *    border-top-left-radius:4px
+ *}
+ *
+ *.navbar-inner > .hidden-xs > .nav > li:last-child > a {
+ *    border-top-right-radius:4px;
+ *    border-bottom-right-radius:4px
+ *}
+ */
 
 /* Menu for mobiles */
 .navbar-inner > .visible-xs > .navbar-collapse > .nav > li > a {
