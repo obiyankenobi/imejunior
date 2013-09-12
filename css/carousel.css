@@ -37,7 +37,8 @@ body {
 .navbar-inner > .hidden-xs > .nav > li > a {
 	padding: 10px 15px 10px;	
 	text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Maven Pro', sans-serif;
 	color: #0088CC;
     font-size: 15px;
 	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
