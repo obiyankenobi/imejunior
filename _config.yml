@@ -3,8 +3,8 @@ description: "Site da empresa júnior do IME"
 
 #url: "www.imejunior.com.br"
 #url: http://localhost:4000
-#baseurl: /yanmartins.github.io
-baseurl: /
+baseurl: /yanmartins.github.io
+#baseurl: /
 
 paginate: 10
 paginate_path: "blog/page:num"
