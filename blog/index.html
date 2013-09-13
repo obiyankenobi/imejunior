@@ -9,7 +9,7 @@ layout: default
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
     <div class="row">
-        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p class="author">{{ post.date || date_to_string }}</p>
         <p>{{ post.excerpt }}</p>
     </div>
@@ -19,16 +19,16 @@ layout: default
     {% if paginator.previous_page %}
         <p class="previous">
         {% if paginator.previous_page == 1 %}
-            <a href="{{ site.baseurl }}/blog">Previous</a>
+            <a href="/blog">Previous</a>
         {% else %}
-            <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}">Previous</a>
+            <a href="{{ paginator.previous_page_path }}">Previous</a>
         {% endif %}
         </p>
     {% endif %}
 
     {% if paginator.next_page %}
         <p class="next">
-            <a href="{{ site.baseurl }}{{ paginator.next_page_path }}">Next</a>
+            <a href="{{ paginator.next_page_path }}">Next</a>
         </p>
     {% endif %}
 
