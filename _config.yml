@@ -2,7 +2,8 @@ name: "IME júnior"
 description: "Site da empresa júnior do IME"
 
 #url: "www.imejunior.com.br"
-url: "http://localhost:4000"
+#url: "http://localhost:4000"
+url: yanmartins.github.io
 
 paginate: 10
 paginate_path: "blog/page:num"
