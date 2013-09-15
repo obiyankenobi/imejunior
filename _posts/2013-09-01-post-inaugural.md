@@ -1,6 +1,7 @@
 ---
 title: Post inaugural
 layout: post
+author: Yan Martins
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elemen\

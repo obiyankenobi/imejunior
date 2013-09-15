@@ -3,7 +3,7 @@ description: "Site da empresa júnior do IME"
 
 #url: "www.imejunior.com.br"
 
-paginate: 10
+paginate: 5
 paginate_path: "blog/page:num"
 
 markdown: rdiscount
