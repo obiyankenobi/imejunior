@@ -77,7 +77,20 @@ a:hover {
 .navbar-inner > .visible-xs > .navbar-collapse > .nav > li > a:hover {
     color: #ffffff;
 	background-color: #47839b;
+    text-transform: uppercase;
 }
+
+#contato {
+    margin-left: 30px;
+    color: #061b3b;
+}
+
+a#contato:hover {
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+
+
 
 /* CUSTOMIZE THE BLOG
 -------------------------------------------------- */
