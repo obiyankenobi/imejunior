@@ -122,6 +122,11 @@ a#contato:hover {
     margin: 10px 0;
 }
 
+.post > p > img {
+    margin: auto;
+    display: block;
+}
+
 
 /* CUSTOMIZE CONTATO
 -------------------------------------------------- */
