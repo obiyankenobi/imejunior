@@ -55,7 +55,7 @@ a:hover {
 }
 
 .navbar-inner > .hidden-xs > .nav > li > a:hover {
-	background-color: #0088CC;
+	//background-color: #0088CC;
 	color: #ffffff;
 }
 
@@ -151,42 +151,12 @@ a#contato:hover {
     height: 100%;
 }
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-	margin-bottom: 60px;
-
-	/* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-	margin-top: -90px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-	z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-	height: 500px;
-	background-color: #777;
-}
-.carousel-inner > .item > img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	min-width: 100%;
-	height: 500px;
-}
-
-
 
 /* A IME JÚNIOR
 -------------------------------------------------- */
 
 .justify {
     text-align: justify;
-    font-size: 15px;
 }
 
 .bqstart {
@@ -230,6 +200,36 @@ a#contato:hover {
     text-align: center;
     margin-bottom: 20px;
 }
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+	margin-bottom: 60px;
+
+	/* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+	margin-top: -90px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+	z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+	height: 500px;
+	background-color: #777;
+}
+.carousel-inner > .item > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 500px;
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
