@@ -22,6 +22,14 @@ a:hover {
     text-decoration: none;
 }
 
+a.no-highlight {
+    color: #5a5a5a;
+}
+
+a.no-highlight:hover {
+    color: #999999;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
