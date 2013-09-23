@@ -218,7 +218,7 @@ a#contato:hover {
 	margin-bottom: 60px;
 
 	/* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-	margin-top: -90px;
+	margin-top: -20px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -231,11 +231,24 @@ a#contato:hover {
 	background-color: #777;
 }
 .carousel-inner > .item > img {
-	position: absolute;
+	/*position: absolute;*/
 	top: 0;
 	left: 0;
 	min-width: 100%;
-	height: 500px;
+	height: auto;
+}
+
+.carousel-inner {
+    height: auto;
+}
+
+.carousel-inner > .item {
+    height: auto;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+    top: 40%;
 }
 
 
