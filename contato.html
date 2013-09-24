@@ -13,18 +13,18 @@ layout: default
         <div class="col-md-6 col-sm-12">
             Envie um email para <a href="mailto:contato@imejunior.com.br">contato@imejunior.com.br</a> ou entre em contato através do formulário abaixo.
             <br/><br/>
-            <form role="form">
+            <form role="form" action="contact.php" method="post">
                 <div class="form-group">
                     <label for="nome">Nome</label>
-                    <input type="text" class="form-control" id="name" placeholder="Nome">
+                    <input type="text" class="form-control" name="cf_name" placeholder="Nome">
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Endereço de email">
+                    <input type="email" class="form-control" name="cf_email" placeholder="Endereço de email">
                 </div>
                 <div class="form-group">
                     <label for="texto">Mensagem</label>
-                    <textarea class="form-control" rows="5"></textarea>
+                    <textarea class="form-control" rows="5" name="cf_message"></textarea>
                 </div>
                 
                 <button type="submit" class="btn btn-primary">Enviar</button>
