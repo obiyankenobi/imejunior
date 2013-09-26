@@ -9,6 +9,34 @@ layout: default
 
 <div class="container">
 
+     <div id="success" class="alert alert-dismissable alert-success" style="display:none;">
+         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+         Email enviado com sucesso!
+     </div>
+ 
+     <div id="error" class="alert alert-dismissable alert-danger" style="display:none;">
+         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+         Erro ao enviar email.
+     </div>
+ 
+ 
+     <script type="text/javascript">
+         var result = getURLParameter('sent');
+         if (result == 'true') {
+             document.getElementById('success').style.display = 'block';
+         }
+         if (result == 'false') {
+             document.getElementById('error').style.display = 'block';
+         }
+         function getURLParameter(name) {
+             return decodeURI(
+                 (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
+             );
+         }
+     </script>
+
+
+
     <div class="row">
         <div class="col-md-6 col-sm-12">
             Envie um email para <a href="mailto:contato@imejunior.com.br">contato@imejunior.com.br</a> ou entre em contato através do formulário abaixo.
