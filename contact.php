@@ -5,35 +5,26 @@ $field_email = $_POST['cf_email'];
 $field_message = $_POST['cf_message'];
 
 
-$mail_to = 'yan.martins@gmail.com';
+$mail_to = 'site@imejunior.com.br';
 $subject = 'Contato pelo website: '.$field_name;
 
 
-$body_message = 'From: '.$field_name."\n";
+$body_message = 'De: '.$field_name."\n";
 $body_message .= 'E-mail: '.$field_email."\n";
-$body_message .= 'Message: '.$field_message;
+$body_message .= 'Mensagem: '.$field_message;
 
 
-$headers = 'From: '.$field_email."\r\n";
-$headers .= 'Reply-To: '.$field_email."\r\n";
+$headers = 'From: '.'site@imejunior.com.br'."\r\n";
+$headers .= 'Reply-To: '.'site@imejunior.com.br'."\r\n";
 
-//$mail_status = mail($mail_to, $subject, $body_message, $headers);
+$mail_status = mail($mail_to, $subject, $body_message, $headers);
 
-if ($mail_status) { ?>
-    <script language="javascript" type="text/javascript">
-        alert('Thank you for the message. We will contact you shortly.');
-        window.location = '/contato.html?sent=true';
-    </script>
-
-<?php
+if ($mail_status) { 
+    header( 'Location: http://www.imejunior.com.br/contato.html?sent=true' );
 }
 
-else { ?>
-    <script language="javascript" type="text/javascript">
-        alert('Message failed. Please, send an email to gordon@template-help.com');
-        window.location = '/contato.html?sent=false';
-    </script>
-
-<?php
+else {
+    header( 'Location: http://www.imejunior.com.br/contato.html?sent=false' );
 }
+
 ?>
