@@ -2,6 +2,7 @@
 title: 5 anos, hora de uma repaginada!
 layout: post
 author: Thomás Elmor - Diretor Presidente
+thumbnail: 5-anos-hora-de-uma-repaginada.jpg
 ---
 
 Há exatos 5 anos foi criada a IME júnior, fruto do espírito empreendedor de alguns alunos do Instituto Militar de Engenharia. Segundo Gilberto Cordeiro, primeiro presidente da IME júnior:
