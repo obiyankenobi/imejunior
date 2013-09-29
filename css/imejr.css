@@ -63,26 +63,23 @@ a.no-highlight:hover {
 }
 
 .navbar-inner > .hidden-xs > .nav > li > a:hover {
-	//background-color: #0088CC;
+	/*background-color: #0088CC;*/
 	color: #ffffff;
 }
 
-/*
- *.navbar-inner > .hidden-xs > .nav > li:first-child > a {
- *    border-bottom-left-radius:4px;
- *    border-top-left-radius:4px
- *}
- *
- *.navbar-inner > .hidden-xs > .nav > li:last-child > a {
- *    border-top-right-radius:4px;
- *    border-bottom-right-radius:4px
- *}
- */
-
 /* Menu for mobiles */
 .navbar-inner > .visible-xs > .navbar-collapse > .nav > li > a {
+    font-family: 'Maven Pro', sans-serif;
     color: #ffffff;
+	text-transform: uppercase;
 }
+
+.navbar-inner > .visible-xs > .navbar-collapse > .nav > li > a#contato.btn {
+    margin: 10px 15px;
+    /*display: inline;*/
+}
+
+
 
 .navbar-inner > .visible-xs > .navbar-collapse > .nav > li > a:hover {
     color: #ffffff;
