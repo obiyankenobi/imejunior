@@ -127,6 +127,11 @@ a#contato:hover {
     margin: 10px 0;
 }
 
+.post > ul > li > p,
+.post > p {
+    text-align: justify;
+}
+
 .post > p > img {
     margin: auto;
     display: block;
